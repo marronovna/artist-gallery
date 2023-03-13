@@ -1,0 +1,60 @@
+body {
+    font: normal 16px sans-serif;
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+.gallery-container h1 {
+    text-align: center;
+    margin-top: 70px;
+    color: #58595a;
+}
+
+.gallery-container p.page-description {
+    text-align: center;
+    margin: 30px auto;
+    font-size: 18px;
+    color: #85878c;
+}
+
+/* Styles for the gallery */
+
+.tz-gallery {
+    padding: 40px;
+}
+
+.tz-gallery .thumbnail {
+    padding: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: none;
+    background-color: black;
+}
+
+.tz-gallery img {
+    border-radius: 2px;
+    max-height: 400px;
+    background-color: black;
+    overflow: hidden;
+}
+
+.tz-gallery .caption{
+    padding: 26px 30px;
+    text-align: center;
+    background-color: black;
+}
+
+.tz-gallery .caption h3 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.tz-gallery .caption p {
+    font-size: 12px;
+    color: #7b7d7d;
+    margin: 0;
+}
+
+.about {
+    text-align: center;
+}
